@@ -1,0 +1,51 @@
+{% extends 'base.html' %} {% block content %}
+<div class="center-content">
+  <h1>Welcome to My Flask Website with Ant Design!</h1>
+  <p>This is the index page.</p>
+  <a class="ant-btn ant-btn-primary" href="#">Booking A Seat</a>
+  <h4>Leaving in 30 min</h4>
+  <div class="card-list">
+    <div class="ant-card">
+      <div class="ant-card-body">
+        <div class="card-icon">
+          <i class="anticon anticon-bus"></i>
+        </div>
+        <div class="card-content">
+          <div>
+            <h3>Bus Name</h3>
+            <p>Destination: Home</p>
+          </div>
+          <div>
+            <p>Departure Time: 9:00 AM</p>
+            <p>Seats Available: 10</p>
+          </div>
+          <div>
+            <a class="ant-btn ant-btn-primary" href="booking">Booking A Seat</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ant-card">
+      <div class="ant-card-body">
+        <div class="card-icon">
+          <i class="anticon anticon-bus"></i>
+        </div>
+        <div class="card-content">
+          <div>
+            <h3>Bus Name</h3>
+            <p>Destination: Home</p>
+          </div>
+          <div>
+            <p>Departure Time: 9:00 AM</p>
+            <p>Seats Available: 10</p>
+          </div>
+          <div>
+            <a class="ant-btn ant-btn-primary" href="#">Booking A Seat</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Add more card items here as needed -->
+  </div>
+</div>
+{% endblock %}
