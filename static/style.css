@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page1 h3{
+    font-size: 30px;
+    margin-right: 5%;  
+}
+.page2 h2{
+    margin-bottom: 50px;
+}
+.page2 h3{
+    margin-bottom: 30px; 
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px rgb(66, 60, 60);
+    margin-right:auto;
+}
+.page1 h2{
+    backdrop-filter: blur(2px);
+    text-align: center;
+    margin-top: 1%; 
+    box-shadow: 0px 0px 10px rgb(66, 60, 60);
+    font-size: 40px;
+}
+.page2 a{
+    margin-bottom: 100%;
+}
+.page1 a{
+    margin-left: 15%;
+    width: 40%;
+    
+    
+}
+button{
+    font-family: 'Times New Roman';
+    color: red; 
+    margin-right: 25%;
+    text-align: center;
+    padding-right: 1%;
+    margin-bottom: 400px;
+    padding-left: 1%;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 10px;
+    align-items: center;
+    border: rgb(25, 226, 186);
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+button:hover{
+    color:white;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid blue;
+    
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+    text-align: center;
+    color: white; 
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    scrollbar-width: none;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/static/images/VUT.jpg);
+}
+
+/*HOME PAGE*/
+.main{
+    height: 65vh;
+    width: 100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/static/images/background.jpg);
+    
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scrollbar-width: none;
+    overflow-x: hidden; 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+img{
+    height: 15%;
+    width: 10%;
+   
+    
+}
+.box{
+    margin-top: 2%;
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px red;
+    margin-left: -60%; 
+    height: 48vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box h2{
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px 10px 0 0;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 7%;
+    
+    color: red;
+}
+.header{
+   width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: 6px; 
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.c1{
+    color: red;
+}
+.c2{
+    color: blue;
+}
+.row{
+    padding: 7px;
+    font-size: 15px;
+   
+}
+.form-label{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: white;
+
+}
+.form-input{
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    border-bottom: 2px solid red;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+::placeholder{
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.form-submit{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    border-top: none;
+}
+
+.form-submit:hover{
+    background-color: blue;
+    color: red;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head h1{
+   font-size: 70px;
+   
+}
+.head h4{
+    margin-right: 15px;
+   
+}
+.form-row{
+    height: 81vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/static/images/cover.jpg);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-size: cover;
+    
+}
+.select{
+    height: 550px;
+    text-align: center;
+    display: block;
+    width: 410px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px blue;;
+    
+}
+.signup-box{
+    background-color: rgb(165, 187, 182);
+    height: 550px;
+    text-align: center;
+    display: block;
+    width: 410px;
+    align-items: center;
+    border-radius: 10px;
+    
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px blue;;
+    
+}
+.signup-header{
+    color: red;
+    padding-bottom: 20%;
+    margin-top: 10%;
+
+}
+
+select{
+    border: 2px solid blue;
+    height: 50px;
+    border-radius: 15px;
+    width: 400px;
+    padding-left: 10%;
+    box-shadow: 2px 5px 2px red;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+   
+    
+}
+.choose{
+    background-color: red;
+    color: blue;
+    margin-left: 2px;
+    
+}
+
+.book-btn:hover{
+    background-color: blue;
+    color: red;
+}
+select option{
+    font-family: 'Times New Roman';
+    color: red;
+    font-size: 20px;
+    background-color: blue;
+}
+.book-btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    border-top: none;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    
+}
+.block{
+    padding-left: 10px;
+}
+
+    
+    
+.select h4{
+    font-family:'Times New Roman';
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 25px;
+    
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+.confirm-btn {
+    
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5%;
+}
+.confirm-btn a{
+    color: blue
+}
+.confirm-btn a:hover{
+    color: red
+    
+}

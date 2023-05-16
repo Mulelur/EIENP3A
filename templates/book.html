@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vut website bus shuttle ticket booking</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="head">
+        <img src="/static/images/logo.png" alt="vut logo">
+        <h1>Book Your Ticket Below</h1>
+        <h4>Contact Us: <br>064 304 5858</h4>
+    </div>
+        <form action="{{url_for('confirmation')}}" methods="POST" class="form-row">
+            <div class="select">
+                <h4>From Campus To:</h4>
+                <select name="residence" id="res-id" class="block" required>
+                    <option class="choose" value="" selected disabled>Choose A Res....</option>
+                    <option value="amberfield">Amberfield</option>
+                    <option value="parkvillage">Park Village</option>
+                    <option value="parksquare">Park Square</option>
+                    <option value="goodyear">Good Year</option>
+                    <option value="suntrust">SunTrust</option>
+                    <option value="greenways">GreenWays</option>
+                </select>
+
+                    <h4>Time:</h4>
+                <select name="time" id="res-id" class="block" required>
+                    <option class="choose" value="" selected disabled>Choose Departure Time</option>
+                    <option value="duration">09:15</option>
+                    <option value="duration">10:15</option>
+                    <option value="duration">11:15</option>
+                    <option value="duration">12:15</option>
+                    <option value="duration">14:15</option>
+                    <option value="duration">15:15</option>
+                    <option value="duration">17:15</option>
+                    <option value="duration">19:15</option>
+                </select><br>
+                
+                <div class="block">
+                  <input   type="submit"  class="book-btn" name="" value="BOOK">
+                </div>
+            </div>
+            
+        </form>
+            
+
+    
+    
+</body>
+</html>
